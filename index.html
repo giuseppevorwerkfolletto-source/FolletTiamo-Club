@@ -29,9 +29,16 @@
 
 <body>
 
-  <script>
-window.location.replace("https://script.google.com/macros/s/AKfycbz24ufN8bHylZD8odw_DY3FBik57RU1yEnHbP-ouvQJTPmNOdyOeZOCBxvf4_P20ohF/exec");
+ <script>
+if (window.navigator.standalone === true || window.matchMedia('(display-mode: standalone)').matches) {
+  window.location.replace("https://script.google.com/macros/s/AKfycbz24ufN8bHylZD8odw_DY3FBik57RU1yEnHbP-ouvQJTPmNOdyOeZOCBxvf4_P20ohF/exec");
+}
 </script>
+
+<div style="text-align:center;padding:60px 20px;font-family:Arial;">
+  <h1>FolletTiamo Club</h1>
+  <p>Aggiungi questa pagina alla schermata Home del tuo iPhone.</p>
+</div> 
 
 </body>
 </html>
